@@ -1,0 +1,19 @@
+{
+  "name": "site",
+  "version": "0.0.1",
+  "description": "A site we built on the livestream about Gatsby Themes.",
+  "main": "gatsby-config.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.117",
+    "blogland-theme": "*",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "gatsby-plugin-page-creator": "^2.0.6"
+  }
+}
